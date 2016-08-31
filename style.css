@@ -27,7 +27,32 @@ body {
 }
 
 p{
-  text-align: center;
+  text-align: left;
   margin: 3px 0;
   font-size: 17px;
+}
+
+.messages-container {
+  height: 70vh;
+  overflow: scroll;
+  border: 1px solid black;
+}
+
+.single-message {
+  height 30px;
+  width: 100%;
+  border-bottom: 1px solid lightgrey;
+}
+.single-message p{
+  margin-left: 30px;
+}
+
+.username {
+  font-size: 10px;
+  color: grey;
+}
+.create-time {
+  width: 100%;
+  height: 100%;
+  text-align: right;
 }
